@@ -1,11 +1,15 @@
 //back-end
 var branch = function(q1, q2, q3, q4, q5){
-  if(q1 === "1"){
-    return "#cssDesign";
-  } else if(q2==="2"){
-      return "#rubyRails"
-  } else{
-      return "#phpReact";
+  if(q1 === ""|| q2 === "" || q3 === "" || q4 === "" || q5 === ""){
+    alert("please answer every question");
+  }else{
+    if(q1 === "1"){
+      return "#cssDesign";
+    } else if(q2==="2"){
+        return "#rubyRails"
+    } else{
+        return "#phpReact";
+    }
   }
 };
 
