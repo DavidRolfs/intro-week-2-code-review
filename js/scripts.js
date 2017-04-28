@@ -18,24 +18,25 @@ var branch = function(q1, q2, q3, q4, q5){
 $(document).ready(function(){
   $("form#track").submit(function(event){
     event.preventDefault();
-    // alert("works");
+
+    //store user inputs in variables
     var q1 = $("#question1").val();
     var q2 = $("#question2").val();
     var q3 = $("#question3").val();
     var q4 = $("#question4").val();
     var q5 = $("#question5").val();
     var nameInput = $("#name").val();
-    var ruby=$("#rubyRails");
-    var css=$("#cssDesign");
-    var phpReact=$("#phpReact");
 
-    $(ruby).hide();
-    $(css).hide();
-    $(phpReact).hide();
+    //hides display class eachtime submit button is hit
+    var display = $(".display");
+    $(display).hide();
 
+    //runs users input in branch function and stores in a variable named result
     var result = branch(q1, q2, q3, q4, q5);
 
+    //displays result on webpage
     $(result).show();
+    //add users inputed name to webpage
     $(".name").text(nameInput);
 
   });
