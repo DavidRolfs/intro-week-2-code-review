@@ -11,7 +11,7 @@ The Webpage contains a form that allows the user to answer questions then submit
 
 ## Setup/Installation Requirements
 
-* Go to Github repository page
+* Go to Github repository page https://github.com/DavidRolfs/intro-week-2-code-review
 * Click the "download or clone" button and copy the link.
 * In your computers terminal type "git clone" & paste the copied link.
 * Once downloaded you can open the index.html file in the browser of your choice.
