@@ -1,4 +1,16 @@
+/*body{
+  background-color: #add8e6;
+}*/
 
+.btn-success{
+  float:inherit;
+}
+.btn-danger{
+  float:right;;
+}
+h1{
+  text-align: center;
+}
 .display{
   display: none;
 }
