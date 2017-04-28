@@ -26,6 +26,14 @@ $(document).ready(function(){
     var q5 = $("#question5").val();
     //alert(q1 + q2 + q3 + q4 + q5);
 
+    var ruby=$("#rubyRails");
+    var css=$("#cssDesign");
+    var phpReact=$("#phpReact");
+
+    $(ruby).hide();
+    $(css).hide();
+    $(phpReact).hide();
+
     var result = branch(q1, q2, q3, q4, q5);
 
     $(result).show();
