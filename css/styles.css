@@ -7,3 +7,7 @@
 #phpReact{
   display: none;
 }
+
+form p{
+  font-weight: bold;
+}

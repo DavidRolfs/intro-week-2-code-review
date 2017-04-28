@@ -24,8 +24,7 @@ $(document).ready(function(){
     var q3 = $("#question3").val();
     var q4 = $("#question4").val();
     var q5 = $("#question5").val();
-    //alert(q1 + q2 + q3 + q4 + q5);
-
+    var nameInput = $("#name").val();
     var ruby=$("#rubyRails");
     var css=$("#cssDesign");
     var phpReact=$("#phpReact");
@@ -37,6 +36,8 @@ $(document).ready(function(){
     var result = branch(q1, q2, q3, q4, q5);
 
     $(result).show();
+
+    $(".name").append(nameInput);
 
   });
 });
