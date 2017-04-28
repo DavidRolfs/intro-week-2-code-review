@@ -27,7 +27,7 @@ $(document).ready(function(){
     //alert(q1 + q2 + q3 + q4 + q5);
 
     var result = branch(q1, q2, q3, q4, q5);
-
+    
     $(result).show();
 
   });
